@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: #9fa1a4;
+}
+
+/* navbar */
+.navbar {
+    background-image: linear-gradient(to right, #274685 0%, #3db3c5 100%);
+}
+
+.navbar-brand span {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* home */
+#home {
+    /* position: relative; */
+    padding-top: 15%;
+    height: auto;
+    background-image: linear-gradient(to right, #274685 0%, #3db3c5 100%);
+}
+
+.home-title {
+    font-weight: 700;
+    font-size: 4em;
+    color: white;
+}
+
+/* about us */
+#about {
+    padding-top: 10%;
+}
+
+.about-title {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(-45deg, #3db3c5, #274685);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* services */
+#services {
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.services-title {
+    margin-bottom: 50px;
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(-45deg, #3db3c5, #274685);
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.wrap-icon {
+    margin-bottom: 20px;
+}
+
+.icon {
+    background: linear-gradient(-45deg, #3db3c5, #274685);
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.services-item-title {
+    font-weight: 500;
+}
+
+/* product */
+#products {
+    padding-top: 3%;
+    padding-bottom: 10%;
+}
+
+.product-item {
+    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 5px;
+}
+
+.product-item-title {
+    font-weight: 500;
+}
+
+/* .clients */
+#clients {
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.clients-title {
+    margin-bottom: 50px;
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(-45deg, #3db3c5, #274685);
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.carousel-inner {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.carousel-indicators li {
+    background-color: #212529;
+}
+
+/* .carousel-control-prev span {
+    background-color: #212529;
+}
+
+.carousel-control-next span {
+    background-color: #212529;
+} */
+
+/* contact */
+#contact {
+    padding-top: 10%;
+}
+
+h6 {
+    font-size: 0.8em;
+}
+
+
+
+
+
+
+
+
+
+
